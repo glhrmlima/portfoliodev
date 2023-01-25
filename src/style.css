@@ -1,0 +1,233 @@
+:root {
+  --inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--inter);
+  color: #04293b;
+}
+
+body h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+body a, a::after, a::before {
+    text-decoration: none;
+    color: #3366CC;
+    font-weight: 700;
+}
+
+.header {
+  background-color: #f4eddf;
+  width: 100%;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5%;
+  padding: 10px 50px;
+}
+
+.header-logo {
+  width: 200px;
+}
+
+.header-menu-lista {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.header-menu-item {
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.landing-section {
+  width: 100%;
+  height: 600px;
+  background-image: url("./img/bg-img-landing-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #f4eddf;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5%;
+}
+
+.landing-div {
+    padding: 50px;
+    text-align: center;
+    width: 60%;
+}
+
+.guido-lima {
+    background-image: url(./img/brushstroke.svg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-blend-mode: color-dodge;
+}
+
+.landing-div h1 {
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.divider-section {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1674674266 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1674674266 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-bottom-1674674266 .shape-fill {
+    fill: #F4EDDF;
+}
+
+.skills-section {
+  background-color: #f4eddf;
+  padding: 75px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.skills-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.skills-div {
+  width: 60%;
+}
+
+.skills-list {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.skills-item {
+  justify-items: center;
+  text-align: center;
+  margin: 0 15px;
+  padding: 15px 15px 20px 15px;
+  border-radius: 19px;
+  background: #f4eddf;
+  box-shadow: 7px 7px 20px #e5dfd2, -7px -7px 20px #fffbec;
+  font-size: 16;
+  font-weight: 700;
+}
+
+.skills-item svg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.custom-shape-divider-bottom-1674680360 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1674680360 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-bottom-1674680360 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.contato-section {
+  width: 100%;
+  height: auto;
+}
+
+.contato-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10%;
+}
+
+.contato-chamada {
+  font-size: 40px;
+  font-weight: 900;
+  color: #04293B;
+}
+
+.green-text {
+  color: #286F6C;
+}
+
+.contato-icons svg {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+
+/* 
+  ----------------- FOOTER -----------------
+*/
+
+.footer-section {
+  width: 100%;
+  height: auto;
+  background-color: #F4EDDF;
+  padding: 60px 200px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-signature svg {
+  width: 250px;
+}
+
+.footer-credits a {
+  text-decoration: none;
+  color: #3366CC;
+  font-weight: 700;
+}
