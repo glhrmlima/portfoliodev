@@ -73,7 +73,7 @@ a::before {
 .landing-section {
   width: 100%;
   height: 800px;
-  background-image: url("./img/bg-img-landing-desktop.jpg");
+  background-image: url("./src/img/bg-img-landing-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -91,7 +91,7 @@ a::before {
 }
 
 .guido-lima {
-  background-image: url(./img/brushstroke.svg);
+  background-image: url(./src/img/brushstroke.svg);
   background-position: center;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -345,28 +345,28 @@ a::before {
 */
 
 .projetos-cards-img-numero-secreto {
-  background-image: url(./img/projetos-numero-secreto.JPG);
+  background-image: url(./src/img/projetos-numero-secreto.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 225%;
 }
 
 .projetos-cards-img-organo {
-  background-image: url(./img/projetos-organo.jpg);
+  background-image: url(./src/img/projetos-organo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 .projetos-cards-img-robotron {
-  background-image: url(./img/projetos-robotron-2000.jpg);
+  background-image: url(./src/img/projetos-robotron-2000.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120%;
 }
 
 .projetos-cards-img-aluramidi {
-  background-image: url(./img/projetos-aluramidi.jpg);
+  background-image: url(./src/img/projetos-aluramidi.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 140%;
